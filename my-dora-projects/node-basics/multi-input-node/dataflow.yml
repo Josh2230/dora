@@ -1,0 +1,16 @@
+nodes:
+  - id: multi_node_receiver
+    path: multi_node_receiver.py
+    inputs:
+      input_one: sender_one/input_one
+      input_two: sender_two/input_two
+
+  - id: sender_one
+    path: sender_one.py
+    outputs:
+      - input_one
+
+  - id: sender_two
+    path: sender_two.py
+    outputs:
+      - input_two

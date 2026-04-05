@@ -1,0 +1,3 @@
+nodes:
+  - id: error_handler_node
+    path: error_handler_node.py

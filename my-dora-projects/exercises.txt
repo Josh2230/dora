@@ -1,0 +1,34 @@
+DORA Fundamentals Projects
+
+Node basics
+
+[x] 1. Timer-driven counter node — write a source node that uses dora/timer/millis/500 as input and counts seconds, outputting the count. Forces you to understand timer inputs.
+
+[x] 2. Multi-input node — build a node that receives from two different source nodes and combines their outputs into one message. Teaches you how to handle multiple inputs cleanly.
+
+## Important
+[x] 3. Stateful node — a node that keeps a running average of numbers it receives. Teaches you that nodes can hold state between events.
+
+[x] 4. Error-handling node — a node that intentionally crashes sometimes and gracefully logs the error instead of killing the pipeline.
+
+Data & Arrow
+## Important
+[x] 5. CSV logger node — a sink node that receives any data and writes it to a CSV file, flushing on STOP. Essential pattern for drone telemetry logging.
+
+6. Arrow format explorer — write a node that receives structured data (like bounding boxes) and prints each field individually. Forces you to actually read Arrow data properly.
+
+Real data pipelines
+
+7. Webcam → frame counter — source node reads camera, a second node just counts frames per second and prints it. Simple but teaches you real data throughput.
+
+8. Webcam → grayscale converter → display — write your own grayscale conversion node using numpy/OpenCV instead of using a pre-built one. Forces you to write a real processing node from scratch.
+
+9. Webcam → motion detector — compare consecutive frames and output a "motion detected: true/false" signal. Good intro to stateful frame processing.
+
+10. Rerun.io visualizer — wire rerun.io into any of the above pipelines to visualize the data flowing in real time. You'll use this constantly in drone work.
+
+Pipeline architecture
+
+11. Config via environment variables — build a pipeline where node behavior changes based on env vars in the YAML (like confidence thresholds, resolution, FPS). Teaches you how to make reusable nodes.
+
+12. Hot-swap test — build a pipeline, then swap one node for a different implementation without changing anything else. Proves to yourself that DORA's modularity actually works.

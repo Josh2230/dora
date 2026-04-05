@@ -1,0 +1,28 @@
+INFO:root:reached start
+INFO:root:Node initialized
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+ERROR: Zero Division Error
+INFO:root:ERROR: Zero Division Error
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+ERROR: Zero Division Error
+INFO:root:ERROR: Zero Division Error
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Stopping main node

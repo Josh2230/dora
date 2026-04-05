@@ -1,0 +1,9 @@
+{"timestamp":"2026-04-05T18:45:24.175556Z","level":"INFO","fields":{"message":"","name":"MeterProvider.GlobalSet","message":"Global meter provider is set. Meters can now be created using global::meter() or global::meter_with_scope()."},"target":"opentelemetry"}
+input_two
+Traceback (most recent call last):
+  File "/Users/joshualee/dora/my-dora-projects/data-and-arrow/csv_logger_node/csv_logger_node.py", line 34, in <module>
+    main()
+  File "/Users/joshualee/dora/my-dora-projects/data-and-arrow/csv_logger_node/csv_logger_node.py", line 24, in main
+    avg_speed, avg_distance = data["avg_speed"], data["avg_distance"]
+                              ~~~~^^^^^^^^^^^^^
+TypeError: 'int' object is not subscriptable

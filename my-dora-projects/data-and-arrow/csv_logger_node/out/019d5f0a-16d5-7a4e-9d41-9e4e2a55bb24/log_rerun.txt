@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/Users/joshualee/dora/my-dora-projects/data-and-arrow/.venv/bin/dora-rerun", line 6, in <module>
+    sys.exit(py_main())
+             ^^^^^^^^^
+RuntimeError: Could not initialize dora node
+
+Caused by:
+   0: failed to init event stream
+   1: failed to register node with dora-daemon
+   2: version mismatch: message format v0.7.0 is not compatible with expected message format v0.8.0
+
+Location:
+    /Users/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/dora-node-api-0.4.1/src/daemon_connection/mod.rs:85:30

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/joshualee/dora/my-dora-projects/node_basics/multi-input-node/sender_one.py", line 23, in <module>
+    main()
+  File "/Users/joshualee/dora/my-dora-projects/node_basics/multi-input-node/sender_one.py", line 9, in main
+    data = pa.array(["hello" + i])
+                     ~~~~~~~~^~~
+TypeError: can only concatenate str (not "int") to str
+{"timestamp":"2026-04-03T15:28:53.601207Z","level":"INFO","fields":{"message":"","name":"MeterProvider.GlobalSet","message":"Global meter provider is set. Meters can now be created using global::meter() or global::meter_with_scope()."},"target":"opentelemetry"}

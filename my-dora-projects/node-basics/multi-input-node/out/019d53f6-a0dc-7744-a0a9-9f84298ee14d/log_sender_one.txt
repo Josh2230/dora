@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/Users/joshualee/dora/my-dora-projects/node_basics/multi-input-node/sender_one.py", line 23, in <module>
+    main()
+  File "/Users/joshualee/dora/my-dora-projects/node_basics/multi-input-node/sender_one.py", line 9, in main
+    data = pa.array(["hello",i])
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/array.pxi", line 375, in pyarrow.lib.array
+  File "pyarrow/array.pxi", line 46, in pyarrow.lib._sequence_to_array
+  File "pyarrow/error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow/error.pxi", line 92, in pyarrow.lib.check_status
+pyarrow.lib.ArrowTypeError: Expected bytes, got a 'int' object
+{"timestamp":"2026-04-03T15:29:26.065186Z","level":"INFO","fields":{"message":"","name":"MeterProvider.GlobalSet","message":"Global meter provider is set. Meters can now be created using global::meter() or global::meter_with_scope()."},"target":"opentelemetry"}

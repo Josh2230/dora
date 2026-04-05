@@ -1,0 +1,6 @@
+nodes:
+
+  - id: timer_node
+    path: timer_node.py
+    inputs:
+      tick: dora/timer/millis/500

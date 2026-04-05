@@ -1,0 +1,120 @@
+INFO:root:reached start
+{"timestamp":"2026-04-04T14:58:56.672921Z","level":"INFO","fields":{"message":"","name":"MeterProvider.GlobalSet","message":"Global meter provider is set. Meters can now be created using global::meter() or global::meter_with_scope()."},"target":"opentelemetry"}
+INFO:root:Node initialized
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:ERROR: Zero Division Error
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:ERROR: Zero Division Error
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:ERROR: Zero Division Error
+INFO:root:Checking for events
+INFO:root:ERROR: Zero Division Error
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:ERROR: Zero Division Error
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:ERROR: Zero Division Error
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:ERROR: Zero Division Error
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:ERROR: Zero Division Error
+INFO:root:Checking for events
+INFO:root:ERROR: Zero Division Error
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:ERROR: Zero Division Error
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:ERROR: Zero Division Error
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:ERROR: Zero Division Error
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:ERROR: Zero Division Error
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:ERROR: Zero Division Error
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:ERROR: Zero Division Error
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:ERROR: Zero Division Error
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Checking for events
+INFO:root:Stopping main node

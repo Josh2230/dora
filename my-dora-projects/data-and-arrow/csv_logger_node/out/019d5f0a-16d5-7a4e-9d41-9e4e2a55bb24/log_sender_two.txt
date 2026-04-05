@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/Users/joshualee/dora/my-dora-projects/data-and-arrow/csv_logger_node/sender_two.py", line 37, in <module>
+    main()
+  File "/Users/joshualee/dora/my-dora-projects/data-and-arrow/csv_logger_node/sender_two.py", line 7, in main
+    node = Node()
+           ^^^^^^
+RuntimeError: Could not initiate node from environment variable. For dynamic node, please add a node id in the initialization function.
+
+Caused by:
+   0: failed to init event stream
+   1: subscribe failed: Node rerun exited before initializing dora. For more information, run `dora logs 019d5f0a-16d5-7a4e-9d41-9e4e2a55bb24 rerun`.
+
+Location:
+    apis/rust/node/src/event_stream/mod.rs:211:17

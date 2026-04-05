@@ -1,0 +1,30 @@
+nodes:
+  - build: pip install opencv-video-capture
+    # These are the configuration options for the opencv-video-capture node. Each one maps to an env var in your YAML:
+    env:
+      CAPTURE_PATH: '0'
+      IMAGE_HEIGHT: '480'
+      IMAGE_WIDTH: '640'
+    id: camera
+    inputs:
+      tick: dora/timer/millis/20
+    outputs:
+    - image
+    path: opencv-video-capture
+
+  - build: pip install dora-yolo
+    id: object-detection
+    inputs:
+      image: camera/image
+    outputs:
+    - bbox
+    path: dora-yolo
+    env:
+      MODEL: "yolov8l.pt"
+
+  - build: pip install opencv-plot
+    id: plot
+    inputs:
+      bbox: object-detection/bbox
+      image: camera/image
+    path: opencv-plot
