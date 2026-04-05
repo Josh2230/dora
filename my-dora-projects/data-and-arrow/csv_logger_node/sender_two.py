@@ -25,9 +25,12 @@ def main():
                 avg_speed = speed / count
                 avg_distance = distance / count
 
-                node.send_output("avg_speed", pa.array([avg_speed], type=pa.float32()), {"primitive": "series"})
-                node.send_output("avg_distance", pa.array([avg_distance], type=pa.float32()), {"primitive": "series"})
+                avg_data = pa.array([{
+                    "avg_speed": avg_speed,
+                    "avg_distance": avg_distance
+                }])
 
+                node.send_output("input_two", avg_data)
 
         elif event["type"] == "STOP":
             logging.info("Stopping sender_two early")

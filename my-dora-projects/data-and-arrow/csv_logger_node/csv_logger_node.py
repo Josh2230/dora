@@ -18,6 +18,12 @@ def main():
                     f.write(data + "\n")
                     f.flush()
 
+                elif input_id == "input_two":
+                    data = str(event["value"].to_pylist())
+                    logging.info("writing data from sender_two to file")
+                    f.write(data + "\n")
+                    f.flush()
+
             elif event_type == "STOP":
                 logging.info("Stopping csv_logger_node early")
                 f.flush()

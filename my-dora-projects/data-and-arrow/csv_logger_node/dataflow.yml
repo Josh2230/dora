@@ -3,13 +3,7 @@ nodes:
     path: csv_logger_node.py
     inputs:
       input_one: sender_one/input_one
-
-  - id: rerun
-    path: dora-rerun
-    build: pip install dora-rerun
-    inputs:
-      avg_speed: sender_two/avg_speed
-      avg_distance: sender_two/avg_distance
+      input_two: sender_two/input_two
 
   - id: sender_one
     path: sender_one.py
@@ -21,5 +15,4 @@ nodes:
     inputs:
       input_one: sender_one/input_one
     outputs:
-      - avg_speed
-      - avg_distance
+      - input_two
