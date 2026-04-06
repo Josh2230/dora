@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/Users/joshualee/dora/my-dora-projects/data-pipelines/frame-counter/camera_node.py", line 3, in <module>
+    from dora import Node
+ModuleNotFoundError: No module named 'dora'

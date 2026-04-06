@@ -1,0 +1,14 @@
+nodes:
+  - id: camera_node
+    path: camera_node.py
+    inputs:
+      tick: dora/timer/millis/20
+    outputs:
+      - frame
+
+
+  - id: frame_counter
+    path: frame_counter.py
+    inputs:
+      frame: camera_node/frame
+
