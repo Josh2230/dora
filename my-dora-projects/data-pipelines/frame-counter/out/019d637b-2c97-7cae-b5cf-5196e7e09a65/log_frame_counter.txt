@@ -1,9 +1,0 @@
-{"timestamp":"2026-04-06T15:48:35.418147Z","level":"INFO","fields":{"message":"","name":"MeterProvider.GlobalSet","message":"Global meter provider is set. Meters can now be created using global::meter() or global::meter_with_scope()."},"target":"opentelemetry"}
-Traceback (most recent call last):
-  File "/Users/joshualee/dora/my-dora-projects/data-pipelines/frame-counter/frame_counter.py", line 26, in <module>
-    main()
-  File "/Users/joshualee/dora/my-dora-projects/data-pipelines/frame-counter/frame_counter.py", line 8, in main
-    event_type = node["type"]
-                 ~~~~^^^^^^^^
-TypeError: 'builtins.Node' object is not subscriptable
-{"timestamp":"2026-04-06T15:48:38.352419Z","level":"WARN","fields":{"message":"timeout while waiting for event stream thread"},"target":"dora_node_api::event_stream::thread"}
