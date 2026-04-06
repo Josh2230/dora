@@ -1,0 +1,12 @@
+/Users/joshualee/dora/my-dora-projects/data-and-arrow/rerun-visualizer-node/.venv/lib/python3.11/site-packages/rerun/__init__.py:18: UserWarning: 
+	The rerun file change detector is deprecated and will be removed from pypi.
+	Please install directly from https://github.com/tartley/rerun and pin to < 1.0.31 if you want to continue using it.
+	If you are looking for the Rerun robotics library, please install the rerun-sdk package from pypi instead.
+  warnings.warn(warning_message)
+Traceback (most recent call last):
+  File "/Users/joshualee/dora/my-dora-projects/data-and-arrow/rerun-visualizer-node/simple_rerun_node/rerun_node.py", line 41, in <module>
+    main()
+  File "/Users/joshualee/dora/my-dora-projects/data-and-arrow/rerun-visualizer-node/simple_rerun_node/rerun_node.py", line 20, in main
+    rr.init("my_app", spawn=True)
+    ^^^^^^^
+AttributeError: module 'rerun' has no attribute 'init'

@@ -1,0 +1,23 @@
+{"timestamp":"2026-04-06T01:17:20.699672Z","level":"INFO","fields":{"message":"","name":"MeterProvider.GlobalSet","message":"Global meter provider is set. Meters can now be created using global::meter() or global::meter_with_scope()."},"target":"opentelemetry"}
+Traceback (most recent call last):
+  File "/Users/joshualee/dora/my-dora-projects/data-and-arrow/rerun-visualizer-node/simple_rerun_node/rerun_node.py", line 41, in <module>
+    main()
+  File "/Users/joshualee/dora/my-dora-projects/data-and-arrow/rerun-visualizer-node/simple_rerun_node/rerun_node.py", line 20, in main
+    rr.init("my_app", spawn=True)
+  File "/Users/joshualee/dora/my-dora-projects/data-and-arrow/rerun-visualizer-node/.venv/lib/python3.11/site-packages/rerun_sdk/rerun/__init__.py", line 369, in init
+    _spawn(default_blueprint=default_blueprint)
+  File "/Users/joshualee/dora/my-dora-projects/data-and-arrow/rerun-visualizer-node/.venv/lib/python3.11/site-packages/rerun_sdk/rerun/sinks.py", line 525, in spawn
+    _spawn_viewer(
+  File "/Users/joshualee/dora/my-dora-projects/data-and-arrow/rerun-visualizer-node/.venv/lib/python3.11/site-packages/rerun_sdk/rerun/_spawn.py", line 65, in _spawn_viewer
+    rerun_bindings.spawn(
+RuntimeError: Failed to find Rerun Viewer executable in PATH.
+
+    You can install an appropriate version of the Rerun Viewer via binary releases:
+    * Using `cargo`: `cargo binstall --force rerun-cli@0.31.1` (see https://github.com/cargo-bins/cargo-binstall)
+    * Via direct download from our release assets: https://github.com/rerun-io/rerun/releases/0.31.1/
+    * Using `pip`: `pip3 install rerun-sdk==0.31.1`
+
+    For more information, refer to our complete install documentation over at:
+    https://rerun.io/docs/overview/installing-rerun/viewer
+    
+PATH="/Users/joshualee/dora/my-dora-projects/data-and-arrow/rerun-visualizer-node/.venv/bin:/Users/joshualee/dora/my-dora-projects/data-and-arrow/rerun-visualizer-node/.venv/bin:/opt/homebrew/bin:/Users/joshualee/.rbenv/shims:/Users/joshualee/.rbenv/shims:/Users/joshualee/.rbenv/shims:/Users/joshualee/.gem/ruby/2.6.0/bin:/opt/anaconda3/bin:/opt/homebrew/Cellar/openjdk@21/21.0.8/libexec/openjdk.jdk/Contents/Home/bin:/Users/joshualee/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand:/Users/joshualee/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/pmk/env/global/bin:/Library/Apple/usr/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Users/joshualee/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand:/Users/joshualee/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli:/Users/joshualee/.rbenv/shims:/Users/joshualee/.gem/ruby/2.6.0/bin:/opt/anaconda3/bin:/opt/homebrew/Cellar/openjdk@21/21.0.8/libexec/openjdk.jdk/Contents/Home/bin:/Users/joshualee/.cargo/bin:/Users/joshualee/Desktop/development/flutter/bin:/Users/joshualee/.rvm/bin:/Users/joshualee/.npm-global/bin:/Users/joshualee/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts:/Users/joshualee/Desktop/development/flutter/bin:/Users/joshualee/.rvm/bin:/Users/joshualee/.npm-global/bin"

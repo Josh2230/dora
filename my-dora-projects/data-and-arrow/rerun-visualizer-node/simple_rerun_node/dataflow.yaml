@@ -1,0 +1,10 @@
+nodes:
+  - id: rerun_node
+    path: rerun_node.py
+    inputs:
+      input_one: sender_one/input_one
+
+  - id: sender_one
+    path: sender_one.py
+    outputs:
+      - input_one
