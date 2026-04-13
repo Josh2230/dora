@@ -1,0 +1,10 @@
+nodes:
+  - id: kalman_filter_node
+    path: filters/kalman_filter_node.py
+    inputs:
+      rssi_data: rssi_sensor_node/rssi_data
+
+  - id: rssi_sensor_node
+    path: sensors/rssi_sensor_node.py
+    outputs:
+      - rssi_data
