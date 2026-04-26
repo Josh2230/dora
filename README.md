@@ -17,6 +17,9 @@ Projects focused on data processing, Apache Arrow struct arrays, stateful comput
 ### yolo-pipeline
 A real-time computer vision pipeline using pre-built DORA community nodes for camera capture, YOLOv8 object detection, and live visualization with bounding boxes.
 
+### wifi-radar
+A passive WiFi radar that captures 802.11 probe requests to detect, fingerprint, and track nearby devices in real time
+
 ## Key Concepts Covered
 
 - DORA node lifecycle (INPUT, STOP events)
